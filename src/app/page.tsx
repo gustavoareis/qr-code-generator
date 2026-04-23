@@ -3,6 +3,7 @@
 import {QRCodeCanvas} from 'qrcode.react';
 import { FaUpload } from "react-icons/fa";
 import { useRef, useState } from "react";
+import Image from "next/image";
 
 export default function Home() {
 	const [linkValue, setLinkValue] = useState<string>('');
@@ -48,10 +49,12 @@ export default function Home() {
 					QR Codes <span>dinâmicos</span>
 				</h1>
 
-				<img 
+				<Image
 					src="/arrow.svg"
-					alt="detail" 
+					alt="detail"
 					className="arrow-detail"
+					width={80}
+					height={80}
 				/>
 			</section>
 
