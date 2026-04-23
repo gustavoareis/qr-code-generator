@@ -8,7 +8,7 @@ export default function Home() {
 	const [linkValue, setLinkValue] = useState<string>('');
 	const [fgColor, setFgColor] = useState<string>('#000000');
 	const [bgColor, setBgColor] = useState<string>('#FFFFFF');
-	const [logoUrl, setlogoUrl] = useState<string>('/logo.png');
+	const [logoUrl, setlogoUrl] = useState<string>('');
 	const [logoSize, setLogoSize] = useState<number>(38);
 	const qrCodeRef = useRef<HTMLDivElement>(null);
 
