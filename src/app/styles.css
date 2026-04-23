@@ -11,7 +11,12 @@
 	justify-content: center;
 	flex-direction: column;
 	min-height: 100vh;
-	background: linear-gradient(180deg, #DBEAFE, #ADD0FF);
+	background-color: #EFF6FF;
+	background-image:
+		radial-gradient(at 15% 25%, #BFDBFE 0px, transparent 50%),
+		radial-gradient(at 85% 75%, #BAE6FD 0px, transparent 50%),
+		radial-gradient(at 50% 10%, #E0F2FE 0px, transparent 40%),
+		radial-gradient(at 70% 40%, #DDD6FE 0px, transparent 35%);
 	gap: 32px;
 
 	.title-container {
@@ -23,7 +28,7 @@
 			font-size: 32px;
 
 			span {
-				color: #4F46E5;
+				color: #60A5FA;
 			}
 
 		}
@@ -73,7 +78,7 @@
 					border: solid 1px #E2E8F0;
 
 					&:focus {
-						outline: 1px solid #4F46E5;
+						outline: 1px solid #60A5FA;
 					}
 				}
 			}
@@ -122,7 +127,7 @@
 						.input-file-button {
 							position: relative;
 							z-index: 1;
-							background-color: #4F46E5;
+							background-color: #60A5FA;
 							border-radius: 8px;
 							border: none;
 							padding: 8px 12px;
@@ -148,7 +153,7 @@
 							background-size: 18px;
 
 							&:focus {
-								outline: 1px solid #4F46E5;
+								outline: 1px solid #60A5FA;
 							}
 						}
 					}
@@ -169,7 +174,7 @@
 			}
 
 			.download-button {
-				background-color: #4F46E5;
+				background-color: #60A5FA;
 				color: #ffffff;
 				padding: 12px 24px;
 				border-radius: 8px;
@@ -179,7 +184,7 @@
 				transition: background-color 0.2s;
 
 				&:hover {
-					background-color: #4338ca;
+					background-color: #3B82F6;
 				}
 			}
 		}
